@@ -1,0 +1,291 @@
+body{
+    background:rgba(48, 48, 48, 0.563) url("img/nbalegends.jpg") ;
+    background-size:cover;
+    background-attachment: fixed;
+    background-blend-mode:darken;
+    margin: 0px;
+    padding: 0px;
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav {
+    background-color: goldenrod;
+    position: sticky;
+    top: 0%;
+    box-shadow: 10px 10px 10px;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    position: relative;
+}
+nav li:hover{
+    background-color: #ffbc65d9;
+}
+nav ul .dropdown{
+    text-align: center;
+    width: 25%;
+}
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d9b24e;
+    width:100%;
+    box-shadow: 10px 10px 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    color: rgb(10, 0, 0);
+    text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.title{
+    text-align: center;
+    font-size: 5em;
+    background-image: linear-gradient(45deg, #ff9306, #aeff00);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    background-image: linear-gradient(45deg, #ff9306, #aeff00);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    margin: 40px;
+    word-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    background-color: rgba(215, 156, 37, 0.828);
+    box-shadow: 10px 10px 5px black;
+    border-radius: 10px ;
+}
+.container{
+    width: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container1{
+    width: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.lebron{ 
+    background-image: url("img/kinglebron.jpg");
+    background-size:cover ;
+    width: 90%;
+    height: 87%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black ;
+}
+.steph{
+    background-image: url("img/steph.jpg");
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 90%;
+    height: 87%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black ;   
+}
+.jordan{
+    margin-top: 120px;
+    margin-left: 40px;
+    background-repeat: no-repeat;
+    background-image: url("img/jordan.jpg");
+    background-size:cover ;
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black ;
+}
+.kobe{
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-image: url("img/kobe.jpg");
+    background-size:cover ;
+    width: 90%;
+    height: 87%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black ;
+}
+.lowernav ul{
+    list-style: none;
+}
+.lowernav {
+    background-color: goldenrod;
+    text-align: center;
+    margin-top:60px ;
+}
+
+.lowernav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.lowernav li {
+    display: block;
+    margin-top: 20px;
+    font-size: 2em;
+    padding: 20px;
+}
+.lowernav li:hover{
+    background-color: #ffbc65d9;
+}
+.shoot{
+    border-radius: 10px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-image: url("img/shoot.jpg");
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black ;
+    background-size:cover;
+    width: 90%;
+    height: 87%;
+}
+.shoot:hover{
+    background-image: url("img/shooting.gif");
+}
+.pass{
+    border-radius: 10px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-image: url("img/pass1.jpg");
+    background-size:contain ;
+    width: 440px;
+    height:250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black ;
+}
+.pass:hover{
+    background-image: url("img/passing.gif");
+}
+.drible{
+    border-radius: 10px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-image: url("img/drible.jpg");
+    background-size:cover;
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black ;
+}
+.drible:hover{
+    background-image: url("img/drible.gif");
+}
+.offense{
+    background-image: url("img/offense.png");
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-size:contain;
+    width: 73%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black ; 
+}
+.defense{
+    background-image: url("img/defense.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    width: 76%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black ; 
+}
+.upper{
+    background-image: url("img/upper.jpg");
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-size:contain ;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black ;  
+}
+.lign{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 50px;
+}
+.lower{
+    background-image: url("img/lower.jpg");
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black ;  
+}
+.core{
+    background-image: url("img/core.jpg");
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black ;  
+}
+.running{
+    background-image: url("img/running.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black ;  
+}
+.boxjump{
+    background-image: url("img/boxjump.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black ;  
+}
+.ropejump{
+    background-image: url("img/ropejump.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black ; 
+}
